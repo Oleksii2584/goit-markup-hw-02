@@ -15,7 +15,7 @@ a{
 color: #212121;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1,14;
 letter-spacing: 0.02em;}
 a:hover,
 a:focus{
@@ -35,14 +35,14 @@ font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;}
+line-height: 1,19;}
 .logo2{
 color: #000000;
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;}
+line-height:1,19;}
 
                             /* header */
 
@@ -62,14 +62,14 @@ line-height: 31px;}
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height:1,36;
   color: #FFFFFF;
 }
 
 .hero-button{font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1,88;
   display: flex;
   align-items: center;
   text-align: center;
@@ -95,7 +95,7 @@ border: 0;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1,14;
   letter-spacing: 0.03em;
   text-transform: uppercase;}
 .key-points-p{
@@ -103,7 +103,7 @@ border: 0;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1,14;
   letter-spacing: 0.03em;
   color: #757575;
   }
@@ -112,7 +112,7 @@ border: 0;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1,16;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -121,7 +121,7 @@ border: 0;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1,17;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -134,7 +134,7 @@ background-color: #FFFFFF;}
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1,19;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -142,7 +142,7 @@ background-color: #FFFFFF;}
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1,19;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
@@ -160,7 +160,7 @@ footer{
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1,19;
 margin-left: 215px;
 margin-top: 60px;}
 .logo-footer2{
@@ -168,14 +168,14 @@ margin-top: 60px;}
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1,19;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 }
 .address-footer{font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1,71;
   letter-spacing: 0.03em;
   color: #FFFFFF;
 }
@@ -183,7 +183,7 @@ color: #FFFFFF;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
   }
@@ -197,7 +197,7 @@ color: #FFFFFF;
   .button-portfolio{font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1,63;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -207,14 +207,14 @@ color: #FFFFFF;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;}
   .portfolio-text{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1,88;
     letter-spacing: 0.03em;
     color: #757575;
   }
