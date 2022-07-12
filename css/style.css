@@ -1,24 +1,22 @@
-
+:root{color: #212121;
+}
 
 body{
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
- Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-color: #212121;
-width: 1200px;
-margin: 0 auto;
-padding: 0 15px;
+font-family: Roboto, sans-serif;
+
+
 }
 img{
 width:min-content;}
                                 /* Изменение стилей кнопки и ссылок */
-a{
+.navigate{
 color: #212121;
 font-weight: 500;
 font-size: 14px;
 line-height: 1,14;
 letter-spacing: 0.02em;}
-a:hover,
-a:focus{
+.navigate:hover,
+.navigate:focus{
 color: #2196F3;}
 
 button{color: #212121;
@@ -32,17 +30,12 @@ background-color: #2196F3;}
 .logo{
 color: #2196F3;
 font-family: 'Raleway';
-font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 1,19;}
-.logo2{
+.logo-studio{
 color: #000000;
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height:1,19;}
+}
 
                             /* header */
 
@@ -53,12 +46,16 @@ line-height:1,19;}
 }
 .container-nav{
 }
+.head-contact{ color: #757575;}
+.head-contact:hover,
+.head-contact:focus{
+color: #2196F3;}
 
                         /* Главный банер */
               /* main */
 
 .hero{ background-color: #2F303A;}
-.hero-title{font-family: 'Roboto';
+.hero-title{
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -70,9 +67,7 @@ line-height:1,19;}
   font-weight: 700;
   font-size: 16px;
   line-height: 1,88;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  font-family: inherit;
   letter-spacing: 0.06em;
   color: #FFFFFF;
   background: #2196F3;
@@ -149,7 +144,7 @@ background-color: #FFFFFF;}
 }
 /*============== footer=========== */
 footer{
-  width: 1600px;
+  width: 1200px;
   height: 252px;
   left: 0px;
   top: 2097px;
@@ -163,7 +158,7 @@ footer{
   line-height: 1,19;
 margin-left: 215px;
 margin-top: 60px;}
-.logo-footer2{
+.logo-footer-studio{
   font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
@@ -193,11 +188,13 @@ color: #FFFFFF;
 
   /* =========================portfolio ===============*/
 
-
-  .button-portfolio{font-style: normal;
+  .navigate.current{ color:#2196F3;
+  }
+  }
+  .button-portfolio{font-style: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,63;
+    
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
